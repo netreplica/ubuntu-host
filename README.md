@@ -42,7 +42,7 @@ Usage: start.sh [-s|r] [-l|C] [-S] [-h]
 
 ### Adding `ubuntu-host` to Containerlab
 
-This snipper would launch `host` node in Containerlab with SSH server enabled via `-S` and root password set to `root`
+This snippet would launch `host` node in Containerlab with SSH server enabled via `-S` and root password set to `root`
 
 ```Yaml
 topology:
