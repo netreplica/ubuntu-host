@@ -20,7 +20,15 @@ docker image build -t ubuntu-host:local .
 ```
 ## Using the image
 
-### Image `command` arguments
+### Image `CMD` arguments
+
+Typical deployment with SSHD and LLDP in station mode
+
+```Dockerfile
+CMD ["/start.sh","-Ss"]
+```
+
+Usage:
 
 ```
 Usage: start.sh [-s|r] [-l|C] [-S] [-h]
